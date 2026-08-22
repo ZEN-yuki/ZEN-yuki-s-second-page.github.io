@@ -9,8 +9,8 @@ const menus = [
 const pushButtom = document.getElementById("pushButtom");
 const resulttext = document.getElementById("resulttext");
 pushButtom.addEventListener("click", function() {
-     const randomNumber = Math.floor(Math.random() * Math.length);
-  console.log("ボタンが押された");   
+    const randomNumber = Math.floor(Math.random() * Math.length);
+    console.log("ボタンが押された");   
 });
 
 console.log(randomNumber)
