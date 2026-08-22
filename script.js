@@ -30,8 +30,9 @@ const resulttext = document.getElementById("resulttext");
 pushButtom.addEventListener("click", function() {
     const randomNumber = Math.floor(Math.random() * menus.length);
     console.log("ボタンが押された");  
+    console.log(randomNumber);
     const selectmenu = menus[randomNumber];
 resulttext.textContent =selectmenu;
 
 });
-console.log(randomNumber)
+
