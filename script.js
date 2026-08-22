@@ -34,4 +34,4 @@ pushButtom.addEventListener("click", function() {
 resulttext.textContent =selectmenu;
 
 });
-console.log("randomNunmber")
+console.log(randomNunmber)
