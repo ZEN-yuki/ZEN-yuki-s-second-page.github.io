@@ -13,3 +13,4 @@ pushButtom.addEventListener("click", function() {
 Math.random();
 console.log(Math.random());
 Math.floor(Math.random() * menus.length)
+alert("JavaScriptが動いています");
