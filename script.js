@@ -12,7 +12,5 @@ pushButtom.addEventListener("click", function() {
     const randomNumber = Math.floor(Math.random() * 10);
     console.log("ボタンが押された");   
 });
-
-console.log(randomNumber)
 const selectmenu = menus[randomNumber];
 resulttext.textContent =selectmenu;
